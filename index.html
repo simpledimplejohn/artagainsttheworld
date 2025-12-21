@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Art Against The World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      background-color: #2E1E30;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 4.5rem);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+    }
+
+    .enter {
+      display: inline-block;
+      padding: 0.9rem 2.5rem;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .enter:hover {
+      background: #ffffff;
+      color: #2E1E30;
+    }
+  </style>
 </head>
 <body>
-    <div class="">
-        <h1 class="">ARTAGAINSTTHEWORLD</h1>
-    </div>
+  <div class="container">
+    <h1>Art Against The World</h1>
+
+    <a
+      href="https://art-against-the-world.square.site"
+      class="enter"
+    >
+      Enter Store
+    </a>
+  </div>
 </body>
 </html>
